@@ -32,7 +32,7 @@ const Intro = () => {
           <div className="w-[270px] h-[full] mx-auto rounded-tl-[50px] rounded-br-[50px] overflow-hidden">
             <Carousel images={images} />
           </div>
-          <ProfileCard first="Oluwadamisi Damilola Adeife" headerClassName="font-bold text-sm md:text-xl mb-2"
+          <ProfileCard first="Oluwadamisi Damilola Adeife" headerClassName="font-bold text-lg md:text-xl mb-2"
         second="I am based in Lagos, Nigeria"/>
         </div>
 
