@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+
 
 const ProfilesSection = ({ stayWithMeText, profilesText }) => {
   return (

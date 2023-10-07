@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
 import { Link, useLocation } from 'react-router-dom';
-import logo from '../assets/photo_5929181771100961704_y.jpg';
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
