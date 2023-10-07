@@ -1,8 +1,0 @@
-{
-    "parser": "babel-eslint",
-    "parserOptions": {
-      "sourceType": "module"
-    },
-    // Other ESLint rules and configurations...
-  }
-  
