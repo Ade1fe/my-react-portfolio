@@ -5,7 +5,7 @@ import ServiceInfoComponent from './ServiceInfoComponent'
 const ServiceComponentPage = () => {
   return (
     <div className='block md:flex gap-7 px-7 mt-3'  >
-        <div className="w-[80%] mx-auto md:w-[25%]">
+        <div className="w-[95%] mx-auto md:w-[25%]">
         <ServiceContainerOne />
         </div>
         <div className="w-full md:w-[70%]">

@@ -5,7 +5,7 @@ const ServiceContainerOne = () => {
   const ServiceElement = ({ icon, name }) => {
     const IconComponent = icon;
     return (
-      <div className="my-[50px] flex gap-3 px-1">
+      <div className="my-[50px]  flex gap-7 px-1">
         <div className='text-purple-500'>
           <IconComponent size={25}/>
         </div>
@@ -15,7 +15,7 @@ const ServiceContainerOne = () => {
   };
 
   return (
-  <div className="w-full mx-auto" style={{  boxShadow: 'rgba(17, 17, 26, 0.05)  0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px',}}>
+  <div className="w-full rounded-[15px] mx-auto" style={{  boxShadow: 'rgba(17, 17, 26, 0.05)  0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px',}}>
       <div className=' border-2 mx-auto w-fit px-1 md:px-3  border-white'>
       <ServiceElement icon={FaCode} name="Web Development" />
       <ServiceElement icon={FaPenAlt} name="Branding" />

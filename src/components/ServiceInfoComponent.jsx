@@ -3,15 +3,15 @@ import React from 'react';
 const ServiceInfoComponent = () => {
   const ServiceInfoElement = ({ title, desc }) => {
     return (
-      <div className=" p-4" style={{  boxShadow: 'rgba(17, 17, 26, 0.05)  0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px',}}>
-        <h2 className="text-lg font-semibold">{title}</h2>
-        <p className="mt-2">{desc}</p>
+      <div className=" p-4 rounded-[15px]" style={{  boxShadow: 'rgba(17, 17, 26, 0.05)  0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px',}}>
+        <h2 className=" text-lg font-semibold">{title}</h2>
+        <p className="mt-2 text-sm ">{desc}</p>
       </div>
     );
   };
 
   return (
-    <div className='grid mt-5 md:mt-0 gap-4 md:grid-cols-2 lg:grid-cols-3'>
+    <div className='grid mt-5 md:mt-0 gap-4 md:grid-cols-2 lg:grid-cols-2'>
       <ServiceInfoElement title="Web Development" desc="Are you looking to establish a strong online presence or revamp your existing website? With my expertise in web development, I can create visually stunning and highly functional websites tailored to your needs. Using cutting-edge technologies and responsive design principles, I ensure that your website not only looks great but also delivers a seamless user experience. Let's collaborate to bring your digital vision to life." />
 
       <ServiceInfoElement title="Branding" desc="Branding is more than just a logo; it's the essence of your business. I specialize in crafting unique and memorable brand identities that resonate with your target audience. From logos and color palettes to brand guidelines, I ensure that your brand stands out in a crowded marketplace. Let's work together to build a brand that leaves a lasting impression." />
