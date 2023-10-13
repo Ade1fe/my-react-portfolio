@@ -31,9 +31,9 @@ const Navbar = () => {
     </Link>
       </div>
       {isMenuOpen ? (
-        <AiOutlineClose className="block md:hidden" size={20} onClick={toggleMenu} />
+        <AiOutlineClose className="block md:hidden" size={27} onClick={toggleMenu} />
       ) : (
-        <AiOutlineMenu className="block md:hidden" size={20} onClick={toggleMenu} />
+        <AiOutlineMenu className="block md:hidden" size={27} onClick={toggleMenu} />
       )}
       
       <ul
