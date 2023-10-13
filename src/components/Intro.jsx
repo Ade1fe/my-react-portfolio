@@ -2,7 +2,7 @@ import React from 'react';
 import Carousel from './Carousel';
 import sign from '../assets/black-girl-with-on-a-laptop-with-a-knife-professional-ominous-concept-art-by-artgerm-and-greg-rutk-610657426.png';
 import sign2 from '../assets/black-character-sitting-in-a-gamer-room-with-gamer-headset-perfect-beautiful-hair-creating-3d-game-i-303953139.png';
-import workOne from '../assets/its-my-big-sister-antoinettes-birthday-today-happy-birthday-sis-x-ultra-hd-realistic-vivid-c-805152248.png';
+import workOne from '../assets/vector-design--cute-african-american-trendy-y2k-teen-girl-with-curly-hair-62059328.png';
 import ProfileCard from './ProfileCard';
 import MarqueeComponent from './MarqueeComponent';
 import CredentialsBox from './CredentialsBox';
