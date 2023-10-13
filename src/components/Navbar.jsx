@@ -25,7 +25,7 @@ const Navbar = () => {
         <h1>Deife_ <span className='text-purple-500'>Syntax</span></h1>
       </div>  
       </Link>
-      <div className="flex items-center md:hidden font-semibold text-lg  ">
+      <div className="flex items-center md:hidden font-semibold text-[15px]  ">
       <Link to="/letUsTalk" style={isLinkActive('/letUsTalk') ? { color: '#adb5bd' } : {}}>
       Lets Talk
     </Link>
@@ -38,8 +38,8 @@ const Navbar = () => {
       
       <ul
         className={`${
-          isMenuOpen ? 'flex transition-all duration-500 text-lg  ' : 'hidden'
-        } absolute top-9 right-0 w-full  justify-evenly z-[99999999999999999999999999999] mt-1 gap-2 md:gap-16 flex-col align-middle md:flex md:flex-row md:static md:w-auto x-transition:enter="animate-showItem" x-transition:leave="animate-hideItem" font-semibold h-[full] md:h-auto bg-white `}
+          isMenuOpen ? 'flex transition-all duration-500 text-[15px]  ' : 'hidden'
+        } absolute top-11 right-0 w-full  justify-evenly z-[99999999999999999999999999999] mt-1 gap-2 md:gap-16 flex-col align-middle md:flex md:flex-row md:static md:w-auto x-transition:enter="animate-showItem" x-transition:leave="animate-hideItem" font-semibold h-[full] md:h-auto bg-white `}
       >
         <li className={`text-center animate-showItem transition-opacity duration-500 py-2 md:py-0 hover:text-[#A06CD5] ${isLinkActive('/') ? 'text-[#adb5bd]' : ''}`}>
           <Link to="/">Home</Link>
@@ -55,7 +55,7 @@ const Navbar = () => {
         </li>
       </ul>
 
-      <div className="hidden py-1 align-middle md:block font-semibold hover:text-[#A06CD5] text-lg ">
+      <div className="hidden py-1 align-middle md:block font-semibold hover:text-[#A06CD5] text-[15px] ">
        <h3 className=''>
     <Link to="/letUsTalk" style={isLinkActive('/letUsTalk') ? { color: '#adb5bd' } : {}}>
       Lets Talk
