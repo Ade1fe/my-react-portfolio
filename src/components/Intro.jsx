@@ -90,7 +90,7 @@ const Intro = () => {
 <div className="block md:flex justify-between w-full gap-3 bg-black py-[3rem] mt-3 mb-7 px-3">
 
 <DataBlock>
-  <DataBlockItem number="2" title1="Years" title2="Experiences" />
+  <DataBlockItem number="2" title1="Years" title2="Experience" />
   <DataBlockItem number="2" title1="Happy" title2="Clients" />
   <DataBlockItem number="5+" title1="Total" title2="Projects" />
 </DataBlock>
