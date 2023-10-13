@@ -39,7 +39,7 @@ const Navbar = () => {
       <ul
         className={`${
           isMenuOpen ? 'flex transition-all duration-500 text-[15px]  ' : 'hidden'
-        } absolute top-11 right-0 w-full  justify-evenly z-[99999999999999999999999999999] mt-1 gap-2 md:gap-16 flex-col align-middle md:flex md:flex-row md:static md:w-auto x-transition:enter="animate-showItem" x-transition:leave="animate-hideItem" font-semibold h-[full] md:h-auto bg-white `}
+        } absolute top-11 right-0 w-full  justify-evenly z-50 mt-1 gap-2 md:gap-16 flex-col align-middle md:flex md:flex-row md:static md:w-auto x-transition:enter="animate-showItem" x-transition:leave="animate-hideItem" font-semibold h-[full] md:h-auto bg-white `}
       >
         <li className={`text-center animate-showItem transition-opacity duration-500 py-2 md:py-0 hover:text-[#A06CD5] ${isLinkActive('/') ? 'text-[#adb5bd]' : ''}`}>
           <Link to="/">Home</Link>
