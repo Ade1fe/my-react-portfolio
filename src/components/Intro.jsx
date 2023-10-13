@@ -20,9 +20,9 @@ import { Link } from 'react-router-dom';
 
 const Intro = () => {
   const images = [
-    require('../assets/photo_5884139100448079557_y.jpg'),
-    require('../assets/photo_5884139100448079555_y.jpg'),
-    require('../assets/photo_5884139100448079558_y.jpg'),
+    require('../assets/photo_5857478357246132372_y.jpg'),
+    require('../assets/photo_5857478357246132372_y.jpg'),
+    require('../assets/photo_5857478357246132372_y.jpg'),
   ];
 
   return (
