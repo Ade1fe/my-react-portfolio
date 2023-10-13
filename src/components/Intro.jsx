@@ -1,8 +1,8 @@
 import React from 'react';
 import Carousel from './Carousel';
-import sign from '../assets/metaverse-avatar-collage-concept.jpg';
-import sign2 from '../assets/professional-programmer-working-late-dark-office.jpg';
-import workOne from '../assets/frame-office-tools-brakfast.jpg';
+import sign from '../assets/black-girl-with-on-a-laptop-with-a-knife-professional-ominous-concept-art-by-artgerm-and-greg-rutk-610657426.png';
+import sign2 from '../assets/black-character-sitting-in-a-gamer-room-with-gamer-headset-perfect-beautiful-hair-creating-3d-game-i-303953139.png';
+import workOne from '../assets/its-my-big-sister-antoinettes-birthday-today-happy-birthday-sis-x-ultra-hd-realistic-vivid-c-805152248.png';
 import ProfileCard from './ProfileCard';
 import MarqueeComponent from './MarqueeComponent';
 import CredentialsBox from './CredentialsBox';
@@ -20,16 +20,15 @@ import { Link } from 'react-router-dom';
 
 const Intro = () => {
   const images = [
-    require('../assets/photo_5857478357246132372_y.jpg'),
-    require('../assets/photo_5857478357246132372_y.jpg'),
-    require('../assets/photo_5857478357246132372_y.jpg'),
+    require('../assets/black-female-character-based-oncurly-hair-y2k-fashion-style-pixar-and-anime-style-girl-full-hea-741536843.png'),
+    require('../assets/black-female-character-based-oncurly-hair-y2k-fashion-style-pixar-and-anime-style-girl-full-hea-741536843.png'),
   ];
 
   return (
     <div className="intro mt-2 px-2">
       <div className="block md:flex gap-2 items-center ">
         <div className="first block rounded-[20px] one sm:flex gap-2 justify-center items-center py-7 w-auto  md:w-[50%] px-5 " style={{boxShadow: 'rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px' }}>
-          <div className="w-[270px] h-[full] mx-auto rounded-tl-[50px] rounded-br-[50px] overflow-hidden">
+          <div className="w-[270px] h-full mx-auto rounded-tl-[20px] rounded-br-[20px] overflow-hidden">
             <Carousel images={images} />
           </div>
           <ProfileCard first="Oluwadamisi Damilola Adeife" headerClassName="font-bold text-lg md:text-xl mb-2"
