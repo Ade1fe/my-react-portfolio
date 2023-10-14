@@ -1,15 +1,15 @@
 import React from 'react';
 import blog from "../assets/Image 13-10-2023 at 20.09.jpg";
 import bloggy from "../assets/Image 13-10-2023 at 20.21.jpg";
-import peakone from "../assets/peakpx (1).jpg";
-import peaktwo from "../assets/peakpx (2).jpg";
-import peakthree from "../assets/peakpx (3).jpg";
-import imgone from "../assets/photo_5884139100448079552_x.jpg";
-import imgtwo from "../assets/photo_5884139100448079553_y.jpg";
-import imgthree from "../assets/photo_5884139100448079555_y.jpg";
-import imgfour from "../assets/photo_5884139100448079557_y.jpg";
-import imgfive from "../assets/photo_5884139100448079558_y.jpg";
-import sign from "../assets/sign.jpg";
+import peakone from "../assets/Image 13-10-2023 at 20.32.jpg";
+import peaktwo from "../assets/Image 13-10-2023 at 20.37.jpg";
+import peakthree from "../assets/Image 13-10-2023 at 20.45.jpg";
+import imgone from "../assets/Image 13-10-2023 at 20.42.jpg";
+import imgtwo from  "../assets/Image 13-10-2023 at 20.26.jpg";
+import imgthree from "../assets/Image 13-10-2023 at 20.48.jpg";
+import imgfour from "../assets/Image 13-10-2023 at 20.59.jpg";
+import imgfive from "../assets/Image 13-10-2023 at 20.55.jpg";
+// import sign from "../assets/Image 13-10-2023 at 21.00.jpg";
 
 
 const ImagesComponents = () => {
@@ -29,54 +29,71 @@ const ImagesComponents = () => {
       externalURL: "https://www.youtube.com", 
     },
     {
+      url: peakthree,
+      isPortrait: true,
+      alt: "Recipe App",
+      description: "Deife-Food.",
+      externalURL: "https://getcssscan.com/css-box-shadow-examples", 
+    },
+
+  
+    {
       url: peakone,
       isPortrait: false,
-      alt: "Mountain Peak One",
-      description: "My third",
+      alt: "Anime Website",
+      description: "Dee-Movies (Anime)",
       externalURL: "https://getcssscan.com/css-box-shadow-examples", 
     },
     {
-      url: peaktwo,
-      isPortrait: false,
-      alt: "Mountain Peak Two",
-      description: "My fourth",
-      
-    },
-    {
-      url: peakthree,
-      isPortrait: false,
-      alt: "Mountain Peak Three",
-    },
-    {
       url: imgone,
+      isPortrait: false,
+      alt: "Recipe App",
+      description: "Deife-Food.",
+      externalURL: "https://getcssscan.com/css-box-shadow-examples",  
+    },
+    {
+      url: peaktwo,
       isPortrait: true,
-      alt: "Portrait Photo One",
+      alt: "Movie Webiste",
+      description: "Dee-Movies (Movie)",
+      externalURL: "https://getcssscan.com/css-box-shadow-examples", 
+      
     },
     {
       url: imgtwo,
       isPortrait: true,
       alt: "Portrait Photo Two",
+      description: "My fourth",
+      externalURL: "https://getcssscan.com/css-box-shadow-examples", 
     },
     {
       url: imgthree,
       isPortrait: true,
       alt: "Portrait Photo Three",
+      description: "My fourth",
+      externalURL: "https://getcssscan.com/css-box-shadow-examples", 
     },
     {
       url: imgfour,
       isPortrait: true,
       alt: "Portrait Photo Four",
+      description: "My fourth",
+      externalURL: "https://getcssscan.com/css-box-shadow-examples", 
     },
     {
       url: imgfive,
       isPortrait: true,
       alt: "Portrait Photo Five",
+      description: "My fourth",
+      externalURL: "https://getcssscan.com/css-box-shadow-examples", 
     },
-    {
-      url: sign,
-      isPortrait: false,
-      alt: "Welcome Sign",
-    },
+    // {
+    //   url: sign,
+    //   isPortrait: false,
+    //   alt: "Welcome Sign",
+    //   description: "My fourth",
+    //   externalURL: "https://getcssscan.com/css-box-shadow-examples", 
+    // },
     // Add more image objects here as needed
   ];
 
