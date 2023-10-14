@@ -1,6 +1,6 @@
 import React from 'react';
-import blog from "../assets/blog.jpg";
-import bloggy from "../assets/bloggy.jpg";
+import blog from "../assets/Image 13-10-2023 at 20.09.jpg";
+import bloggy from "../assets/Image 13-10-2023 at 20.21.jpg";
 import peakone from "../assets/peakpx (1).jpg";
 import peaktwo from "../assets/peakpx (2).jpg";
 import peakthree from "../assets/peakpx (3).jpg";
@@ -17,15 +17,15 @@ const ImagesComponents = () => {
     {
       url: blog,
       isPortrait: false,
-      alt: "Blog Post Cover",
-      description: "My first",
+      alt: "Fashion Blog",
+      description: "Deife-Luxe ",
       externalURL: "https://www.google.com", 
     },
     {
       url: bloggy,
       isPortrait: true,
-      alt: "Bloggy in the Garden",
-      description: "My second",
+      alt: "Random Jokes",
+      description: "Dad Jokes",
       externalURL: "https://www.youtube.com", 
     },
     {
@@ -92,8 +92,8 @@ const ImagesComponents = () => {
           <img src={image.url} alt={image.alt} />
         </div>
         <div className='p-2 sm:p-3 text-xs sm:text-[15px]' style={{ boxShadow: "rgba(0, 0, 0, 0.04) 0px 3px 5px" }}>
-          <h4 className='uppercase text-gray-400'>{title}</h4>
-          <h2 className='capitalize font-bold my-1 py-1'>{description}</h2>
+          <h4 className='uppercase text-sm text-gray-400'>{title}</h4>
+          <h2 className='capitalize text-[15px] font-bold my-1 py-1'>{description}</h2>
         </div>
       </a>
     );
