@@ -45,12 +45,13 @@ const ImagesComponents = () => {
       externalURL: "https://getcssscan.com/css-box-shadow-examples", 
     },
     {
-      url: imgone,
+      url: imgtwo,
       isPortrait: false,
-      alt: "Recipe App",
-      description: "Deife-Food.",
-      externalURL: "https://getcssscan.com/css-box-shadow-examples",  
+      alt: "Deife Games",
+      description: "Love Calculator",
+      externalURL: "https://getcssscan.com/css-box-shadow-examples", 
     },
+
     {
       url: peaktwo,
       isPortrait: true,
@@ -59,32 +60,34 @@ const ImagesComponents = () => {
       externalURL: "https://getcssscan.com/css-box-shadow-examples", 
       
     },
-    {
-      url: imgtwo,
-      isPortrait: true,
-      alt: "Portrait Photo Two",
-      description: "My fourth",
-      externalURL: "https://getcssscan.com/css-box-shadow-examples", 
-    },
+     
     {
       url: imgthree,
       isPortrait: true,
-      alt: "Portrait Photo Three",
-      description: "My fourth",
+      alt: "Nft",
+      description: "Quick Nft",
       externalURL: "https://getcssscan.com/css-box-shadow-examples", 
     },
     {
+      url: imgone,
+      isPortrait: false,
+      alt: "Recipe App",
+      description: "Deife-Food.",
+      externalURL: "https://getcssscan.com/css-box-shadow-examples",  
+    },
+
+    {
       url: imgfour,
       isPortrait: true,
-      alt: "Portrait Photo Four",
-      description: "My fourth",
+      alt: "Deife Games",
+      description: "Quiz App",
       externalURL: "https://getcssscan.com/css-box-shadow-examples", 
     },
     {
       url: imgfive,
       isPortrait: true,
-      alt: "Portrait Photo Five",
-      description: "My fourth",
+      alt: "Deife Games",
+      description: "Tic Tac Toe",
       externalURL: "https://getcssscan.com/css-box-shadow-examples", 
     },
     // {
