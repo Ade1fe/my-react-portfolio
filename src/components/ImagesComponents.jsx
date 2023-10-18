@@ -19,21 +19,21 @@ const ImagesComponents = () => {
       isPortrait: false,
       alt: "Fashion Blog",
       description: "Deife-Luxe ",
-      externalURL: "https://www.google.com", 
+      externalURL: "https://deife-luxe.netlify.app/", 
     },
     {
       url: bloggy,
       isPortrait: true,
       alt: "Random Jokes",
       description: "Dad Jokes",
-      externalURL: "https://www.youtube.com", 
+      externalURL: "https://deife-jokes.netlify.app/", 
     },
     {
       url: peakthree,
       isPortrait: true,
       alt: "Recipe App",
       description: "Deife-Food.",
-      externalURL: "https://getcssscan.com/css-box-shadow-examples", 
+      externalURL: "https://deife-food.netlify.app/", 
     },
 
   
@@ -42,14 +42,14 @@ const ImagesComponents = () => {
       isPortrait: false,
       alt: "Anime Website",
       description: "Dee-Movies (Anime)",
-      externalURL: "https://getcssscan.com/css-box-shadow-examples", 
+      externalURL: "https://dee-movies.netlify.app/anime", 
     },
     {
       url: imgtwo,
       isPortrait: false,
       alt: "Deife Games",
       description: "Love Calculator",
-      externalURL: "https://getcssscan.com/css-box-shadow-examples", 
+      externalURL: "https://deife-love-calculator.netlify.app", 
     },
 
     {
@@ -57,7 +57,7 @@ const ImagesComponents = () => {
       isPortrait: true,
       alt: "Movie Webiste",
       description: "Dee-Movies (Movie)",
-      externalURL: "https://getcssscan.com/css-box-shadow-examples", 
+      externalURL: "https://dee-movies.netlify.app/", 
       
     },
      
@@ -66,14 +66,14 @@ const ImagesComponents = () => {
       isPortrait: true,
       alt: "Nft",
       description: "Quick Nft",
-      externalURL: "https://getcssscan.com/css-box-shadow-examples", 
+      externalURL: "https://deife-nft.netlify.app/", 
     },
     {
       url: imgone,
       isPortrait: false,
       alt: "Recipe App",
       description: "Deife-Food.",
-      externalURL: "https://getcssscan.com/css-box-shadow-examples",  
+      externalURL: "https://deife-food.netlify.app/",  
     },
 
     {
@@ -81,14 +81,14 @@ const ImagesComponents = () => {
       isPortrait: true,
       alt: "Deife Games",
       description: "Quiz App",
-      externalURL: "https://getcssscan.com/css-box-shadow-examples", 
+      externalURL: "https://deife-quiz.netlify.app", 
     },
     {
       url: imgfive,
       isPortrait: true,
       alt: "Deife Games",
       description: "Tic Tac Toe",
-      externalURL: "https://getcssscan.com/css-box-shadow-examples", 
+      externalURL: "https://deife-tic-tac-toe.netlify.app", 
     },
     // {
     //   url: sign,
