@@ -42,7 +42,7 @@ const ImagesComponents = () => {
       isPortrait: false,
       alt: "Anime Website",
       description: "Dee-Movies (Anime)",
-      externalURL: "https://dee-movies.netlify.app/anime", 
+      externalURL: "https://dee-movies.netlify.app/", 
     },
     {
       url: imgtwo,
