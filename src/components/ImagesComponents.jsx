@@ -1,15 +1,10 @@
 import React from 'react';
 import blog from "../assets/Image 13-10-2023 at 20.09.jpg";
-import bloggy from "../assets/Image 13-10-2023 at 20.21.jpg";
-import peakone from "../assets/Image 13-10-2023 at 20.32.jpg";
-import peaktwo from "../assets/Image 13-10-2023 at 20.37.jpg";
-import peakthree from "../assets/Image 13-10-2023 at 20.45.jpg";
-import imgone from "../assets/Image 13-10-2023 at 20.42.jpg";
-import imgtwo from  "../assets/Image 13-10-2023 at 20.26.jpg";
-import imgthree from "../assets/Image 13-10-2023 at 20.48.jpg";
-import imgfour from "../assets/Image 13-10-2023 at 20.59.jpg";
-import imgfive from "../assets/Image 13-10-2023 at 20.55.jpg";
-// import sign from "../assets/Image 13-10-2023 at 21.00.jpg";
+import bloggy from "../assets/moda.png";
+import imgthree from "../assets/kin.png";
+import imgfour from "../assets/port.png";
+import imgfive from "../assets/coinease.png";
+import foodimg from "../assets/foodimg.png";
 
 
 const ImagesComponents = () => {
@@ -24,88 +19,49 @@ const ImagesComponents = () => {
     {
       url: bloggy,
       isPortrait: true,
-      alt: "Random Jokes",
-      description: "Dad Jokes",
-      externalURL: "https://deife-jokes.netlify.app/", 
+      alt: "Fashion",
+      description: "Cut2Fit-Moda",
+      externalURL: "https://cut2fit-moda.netlify.app/", 
     },
     {
-      url: peakthree,
+      url: foodimg,
       isPortrait: true,
       alt: "Recipe App",
-      description: "Deife-Food.",
-      externalURL: "https://deife-food.netlify.app/", 
-    },
-
-  
-    {
-      url: peakone,
-      isPortrait: false,
-      alt: "Anime Website",
-      description: "Dee-Movies (Anime)",
-      externalURL: "https://dee-movies.netlify.app/", 
-    },
-    {
-      url: imgtwo,
-      isPortrait: false,
-      alt: "Deife Games",
-      description: "Love Calculator",
-      externalURL: "https://deife-love-calculator.netlify.app", 
-    },
-
-    {
-      url: peaktwo,
-      isPortrait: true,
-      alt: "Movie Webiste",
-      description: "Dee-Movies (Movie)",
-      externalURL: "https://dee-movies.netlify.app/", 
-      
+      description: "Tasty-trail",
+      externalURL: "https://tasty-trail.netlify.app/", 
     },
      
     {
       url: imgthree,
       isPortrait: true,
-      alt: "Nft",
-      description: "Quick Nft",
-      externalURL: "https://deife-nft.netlify.app/", 
-    },
-    {
-      url: imgone,
-      isPortrait: false,
-      alt: "Recipe App",
-      description: "Deife-Food.",
-      externalURL: "https://deife-food.netlify.app/",  
+      alt: "Kin",
+      description: "fintech",
+      externalURL: "https://ki-n.netlify.app/", 
     },
 
     {
       url: imgfour,
       isPortrait: true,
-      alt: "Deife Games",
-      description: "Quiz App",
+      alt: "portfolio",
+      description: "Portfolio",
       externalURL: "https://deife-quiz.netlify.app", 
     },
     {
       url: imgfive,
       isPortrait: true,
-      alt: "Deife Games",
-      description: "Tic Tac Toe",
-      externalURL: "https://deife-tic-tac-toe.netlify.app", 
+      alt: "Fintech",
+      description: "CoinEase",
+      externalURL: "https://coinease.netlify.app/", 
     },
-    // {
-    //   url: sign,
-    //   isPortrait: false,
-    //   alt: "Welcome Sign",
-    //   description: "My fourth",
-    //   externalURL: "https://getcssscan.com/css-box-shadow-examples", 
-    // },
-    // Add more image objects here as needed
+
   ];
 
   const TextItem = ({ title, description, image }) => {
     return (
       <a
         href={image.externalURL}
-        target="_blank" // Open the link in a new tab/window
-        rel="noopener noreferrer" // Required for security and to prevent tab-nabbing
+        target="_blank" 
+        rel="noopener noreferrer"
         className='grid-item'
       >
         <div className="p-2 sm:p-3" style={{ boxShadow: "rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset" }}>
@@ -127,7 +83,7 @@ const ImagesComponents = () => {
           <TextItem
             key={index}
             title={image.alt}
-            description={image.description} // Replace with the actual description
+            description={image.description} 
             image={image}
           />
           
