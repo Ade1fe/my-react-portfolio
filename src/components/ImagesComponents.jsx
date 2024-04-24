@@ -44,7 +44,7 @@ const ImagesComponents = () => {
       isPortrait: true,
       alt: "portfolio",
       description: "Portfolio",
-      externalURL: "https://deife-quiz.netlify.app", 
+      externalURL: "https://iamjoshua.netlify.app/", 
     },
     {
       url: imgfive,
