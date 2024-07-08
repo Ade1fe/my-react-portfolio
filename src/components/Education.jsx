@@ -5,8 +5,8 @@ const EducationItem = ({ yr, job, company,heading }) => {
     <div className=" my-6">
       <h1 className='font-bold text-lg sm:text-lg md:text-2xl  my-5'>{heading}</h1>
       <h2 className='font-semibold'>{yr}</h2>
-      <h4 className='font-semibold'>{job}</h4>
-      <h2 className='font-semibold'>{company}</h2>
+      <h4 className='font-medium'>{job}</h4>
+      <h2 className='font-medium'>{company}</h2>
     </div>
   );
 };

@@ -4,9 +4,9 @@ import Footer from './../components/Footer';
 
 const MainLayout = ({children}) => {
   return (
- <div>
+ <div className='max-w-[1340px] mx-auto logo'>
     <Navbar></Navbar>
-    <div>{children}</div>
+    <div className='mt-16 mb-[8rem]'>{children}</div>
     <Footer></Footer> 
  </div>
   )

@@ -10,6 +10,11 @@ img{
   object-fit: cover !important;
 }
 
+.logo {
+  font-family: "PT Serif", serif;
+  /* font-weight: 700; */
+  font-style: normal;
+}
 
 :root{
   --white : #ffffff;

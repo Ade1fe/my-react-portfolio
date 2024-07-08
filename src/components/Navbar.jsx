@@ -18,7 +18,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="bg-white flex justify-between relative items-center px-5 md:px-10 py-2 font-bold">
+    <div className="bg-white flex justify-between relative items-center px-5 md:px-10 py-6 font-bold">
       <Link to="/" className="font-bold text-xl sm:text-2xl l" style={{ textShadow: 'rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px' }}> 
       <div >
         {/* <img src={logo} alt="" /> */}

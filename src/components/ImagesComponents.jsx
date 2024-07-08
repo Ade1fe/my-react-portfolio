@@ -5,6 +5,7 @@ import imgthree from "../assets/kin.png";
 import imgfour from "../assets/port.png";
 import imgfive from "../assets/coinease.png";
 import foodimg from "../assets/foodimg.png";
+import sellImg from "../assets/Screenshot 2024-07-08 at 19.39.33.png";
 
 
 const ImagesComponents = () => {
@@ -54,6 +55,14 @@ const ImagesComponents = () => {
       externalURL: "https://coinease.netlify.app/", 
     },
 
+    {
+      url: sellImg,
+      isPortrait: true,
+      alt: "e-commerce",
+      description: "SellZone",
+      externalURL: "https://sellzone.netlify.app/", 
+    },
+
   ];
 
   const TextItem = ({ title, description, image }) => {
@@ -63,9 +72,12 @@ const ImagesComponents = () => {
         target="_blank" 
         rel="noopener noreferrer"
         className='grid-item'
+        
       >
         <div className="p-2 sm:p-3" style={{ boxShadow: "rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset" }}>
-          <img src={image.url} alt={image.alt} />
+          <img src={image.url} alt={image.alt} className=' transform 
+                                        transition duration-1000 
+                                        hover:scale-125' />
         </div>
         <div className='p-2 sm:p-3 text-xs sm:text-[15px]' style={{ boxShadow: "rgba(0, 0, 0, 0.04) 0px 3px 5px" }}>
           <h4 className='uppercase text-sm text-gray-400'>{title}</h4>

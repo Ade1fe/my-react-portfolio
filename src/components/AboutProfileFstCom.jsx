@@ -28,7 +28,7 @@ const AboutProfileFstCom = () => {
             </div>
             <div className="px-5 py-4  rounded-[20px] " style={{ boxShadow: 'rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px' }}>
               <Header first="Oluwadamisi Damilola Adeife" headerClassName="font-bold text-xl sm:text-2xl mb-0 my-0 sm:my-3"
-              pClassame="text-xl sm:text-2xl mb-2 my-0 sm:my-6" second="I'm a Lagos-based frontend developer deeply engaged in the tech scene. Proficient in React, Tailwind CSS, Bootstrap, and more, I specialize in creating visually appealing websites and applications. Inspired by Lagos' tech community, I aim to push frontend development boundaries and contribute to tech growth locally and globally." />
+              pClassame="text-xl sm:text-2xl mb-2 my-0 sm:my-6" second="I'm a Lagos-based frontend developer deeply engaged in the tech scene. Proficient in React, Tailwind CSS, Bootstrap, ChakraUi  and more, I specialize in creating visually appealing websites and applications. Inspired by Lagos' tech community, I aim to push frontend development boundaries and contribute to tech growth locally and globally." />
             </div>
           </div>
         </div>

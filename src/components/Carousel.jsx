@@ -16,7 +16,9 @@ const Carousel = ({ images, interval = 3000 }) => {
   return (
     <div className="carousel">
       <img src={images[currentIndex]} 
-      className="carousel-image h-full w-full object-contain"
+      className="carousel-image h-full w-full object-contain transform 
+      transition duration-1000 
+      hover:scale-125" 
       alt="/" />
       
     </div>
